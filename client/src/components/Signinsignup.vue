@@ -3,7 +3,7 @@
     <b-tab title="Register" active>
       <div style="padding: 20px">
         <br>
-        <p style="text-align: left">Name</p>
+        <p style="text-align: left">Username</p>
         <b-form-input v-model="regName" type="text" placeholder="Enter your name"></b-form-input>
 
         <br>
