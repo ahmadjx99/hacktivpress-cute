@@ -1,9 +1,7 @@
 <template lang="html">
   <div class="myNav">
     <b-navbar toggleable type="inverse" variant="primary">
-
       <b-nav-toggle target="nav_collapse"></b-nav-toggle>
-
       <b-link class="navbar-brand" to="./">
         <span>Hacktivpress</span>
       </b-link>
@@ -14,7 +12,6 @@
           Create New Article
         </b-button>
           <b-nav-item>Welcome, {{ user.username }}</b-nav-item>
-
           <b-nav-item-dropdown right>
 
             <!-- Using text slot -->
@@ -53,7 +50,7 @@ export default {
 </script>
 
 <style lang="css">
-.mynav {
+.myNav {
   margin-bottom: 60px;
 }
 </style>
