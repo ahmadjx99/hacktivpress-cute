@@ -67,7 +67,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 .buttonme {
   font-size: 20px;
   margin: 0 10px;
