@@ -16,16 +16,17 @@ node app.js
 
 ## REST API
 
-| Method | URL      | Description   |
-|--------|----------|---------------|
-| GET    | /users   | Get all users |
-| POST   | /signup  | Create user   |
-| POST   | /signin  | sign in       |
+| Method | URL      | Description |
+|--------|----------|-------------|
+| POST   | /login   | log in      |
+| POST   | /signup  | Create user |
+| POST   | /signin  | sign in     |
 
-| Method | URL           | Description          |
-|--------|---------------|----------------------|
-| GET    | /api/articles | Get all articles     |
-| GET    | /articles/:id | Get article by id    |
-| POST   | /articles     | Create article       |
-| PUT    | /article/:id  | Update article by id |
-| DELETE | /article/:id  | Delete article by id |
+| Method | URL                          | Description          |
+|--------|------------------------------|----------------------|
+| GET    | /api/articles                | Get all articles     |
+| GET    | /api/articles/:id            | Get article by id    |
+| POST   | /api/articles                | Create article       |
+| PUT    | /api/articles/:id            | Update article by id |
+| DELETE | /api/articles/:id            | Delete article by id |
+| GET    | /api/articles/:some/:search  | searching something  |
