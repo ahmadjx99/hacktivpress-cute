@@ -1,6 +1,6 @@
 require('dotenv').config()
 const sec = process.env.TOKEN_SECRET
-const saltRounds = Number(process.env.SALT_ROUNDS)
+const saltRounds = Number('10a')
 
 var User = require('../models/user')
 var bcrypt = require('bcrypt')
