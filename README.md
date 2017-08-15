@@ -1,6 +1,10 @@
 # hacktivpress-cute
 
-Simple Application about simple blogging
+Simple Application about simple blogging.
+
+You can register or signup : localhost:8080/registration
+
+After register and login, you can create article : localhost:8080/create
 
 ## Build Setup
 
