@@ -3,8 +3,8 @@
     <div class="row">
       <div v-for="article in searches">
         <h2>{{ article.title }}</h2>
-        <h4 class="small"><small>By {{ article.author.username }}</small></h4>
-        <h4 class="small"><small>Created At {{ article.createdAt }}</small></h4>
+        <h4 class="small"><small>By {{article.author.username }}</small></h4>
+        <h4 class="small"><small>Created on {{article.createdAt }}</small></h4>
         <p class="content" v-for="content in article.articleContent.split('\n')">{{ content }}</p>
       </div>
     </div>
@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 h4 > small {
   padding: 0;
   margin: 0;

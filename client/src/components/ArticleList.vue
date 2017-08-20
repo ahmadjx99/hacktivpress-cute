@@ -2,7 +2,8 @@
   <div>
     <b-list-group>
       <b-list-group-item>
-        <b-form-input v-model="text" type="text" placeholder="search"></b-form-input><br><br>
+        <b-form-input v-model="text" type="text" placeholder="Search"></b-form-input><br>
+        <br>
         <b-form-radio v-model="selection":options="options" stacked="success">
         </b-form-radio>
         <b-button size="sm" variant="primary" href="" @click="doSearch">
@@ -47,5 +48,5 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style lang="css" scoped>
 </style>

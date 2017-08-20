@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import MainPage from '@/components/MainPage'
-import Signinsignup from '@/components/Signinsignup'
-import CreateArticle from '@/components/CreateArticle'
+import Auth from '@/components/Auth'
+import Create from '@/components/Create'
 import ArticleDetail from '@/components/ArticleDetail'
 import SearchResult from '@/components/SearchResult'
 
@@ -17,11 +17,11 @@ export default new Router({
     },
     {
       path: '/registration',
-      component: Signinsignup
+      component: Auth
     },
     {
       path: '/create',
-      component: CreateArticle
+      component: Create
     },
     {
       path: '/article',

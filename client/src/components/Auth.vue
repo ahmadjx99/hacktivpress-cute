@@ -3,7 +3,7 @@
     <b-tab title="Register">
       <div style="padding: 20px">
         <br>
-        <p style="text-align: left">Username</p>
+        <p style="text-align: left">Name</p>
         <b-form-input v-model="regName" type="text" placeholder="Enter your name"></b-form-input>
 
         <br>
@@ -105,7 +105,7 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
+<style lang="css">
 .middle {
   width: 400px;
   margin: auto;

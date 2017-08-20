@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row prime">
       <div class="col-md-9">
-        <h2>Create New Article</h2>
+        <h2>Create New Thread</h2>
       </div>
     </div>
     <div class="row">

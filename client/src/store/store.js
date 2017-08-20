@@ -32,7 +32,7 @@ export const store = new Vuex.Store({
       })
     },
     getUser (store) {
-      axios.get('http://localhost:3000/userdata', {
+      axios.post('http://localhost:3000/userdata', {
         token: localStorage.getItem('token')
       })
       .then(response => {
