@@ -1,6 +1,6 @@
 <template lang="html">
   <b-tabs class="middle">
-    <b-tab title="Register" active>
+    <b-tab title="Register">
       <div style="padding: 20px">
         <br>
         <p style="text-align: left">Username</p>
